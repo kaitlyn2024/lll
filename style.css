@@ -103,7 +103,7 @@ a{
 	width:100%;
 }
 .founder{
-	height:58vh;
+	height:44vh;
 }
 
 #services{
@@ -210,6 +210,35 @@ a{
 
 .dropdown:hover .dropbtn {background-color: #FF66CC;}
 
+
+
+/*get involved*/
+#gi button{
+	color:white;
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	border: solid white 3px;
+	font-family: 'Roboto', sans-serif;
+	padding:10px;
+	border-radius:50px;
+	cursor:pointer;
+	overflow: hidden;
+	text-transform: uppercase;
+}
+#gi button:hover{
+	border: solid #FF66CC 3px;
+	color:#FF66CC;
+}
+
+
+
+
+
+
+
+
+
+
 /*form*/
 input[type=text], select, textarea {
 	width: 100%;
@@ -263,4 +292,10 @@ input[type=submit]:hover {
 		width: 100%;
 		margin-top: 0;
 	}
+}
+hr{
+	height:5px;
+	border-width:0;
+	color:#FFC627;
+	background-color:#FF66CC;
 }
